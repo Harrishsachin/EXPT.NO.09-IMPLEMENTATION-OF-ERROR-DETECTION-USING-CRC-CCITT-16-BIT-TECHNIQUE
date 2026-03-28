@@ -47,7 +47,7 @@ t[e]=(t[e]=='0')?'1':'0';
 printf("erroneous data :%s\n",t);
 }
 crc();
-for(e=0;(e<N-1)&&(cs[e]!='1');e++) if(e<N-1)
+for(e=0;(e<N-1)&&(cs[e]!='1');e++) if(e<N-1) 
 printf("Error detected"); else
 printf("no error detected");
 }
